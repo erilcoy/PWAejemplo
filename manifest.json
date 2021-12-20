@@ -1,8 +1,8 @@
 {
     "name": "Mi primer PWA",
     "short_name": "PWA",
-    "theme_color": "#ffe08a",
-    "background_color": "#ffe08a",
+    "theme_color": "#BCE954",
+    "background_color": "#BCE954",
     "display": "standalone",
     "orientation": "portrait",
     "scope": "./",
