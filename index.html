@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Primer PWA</title>
-        <link rel="manifest" href="manifest.json">
-        <script>
-            if("serviceWorker" in navigator) //If the browser supports the Service Worker, the sw.js
-            {
-                navigator.serviceWorker.register("sw.js");
-            }
-        </script>
-    </head>
 
-    <body>
-        <p style="text-align:center">Soy una miniversion de PWA!</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Primer PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script>
+        if ("serviceWorker" in navigator) //If the browser supports the Service Worker, the sw.js
+        {
+            navigator.serviceWorker.register("sw.js");
+        }
+    </script>
+</head>
 
-        <script src="script.js"></script>
-    </body>
+<body>
+    <div>
+        <p class="texto">Soy una miniversion de PWA!</p>
+        <p class="principal">
+            <img alt="" src="./images/pwa.jpg">
+        </p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
 </html>
